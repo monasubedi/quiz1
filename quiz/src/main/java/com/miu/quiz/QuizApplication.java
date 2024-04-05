@@ -17,7 +17,6 @@ public class QuizApplication {
 		System.out.println("In JSON Format");
 		System.out.println("[");
 		for(Contact contact: contacts){
-			
 			System.out.println("{\" First Name\":" + contact.getFirstName() +", "+ "\"Last Name\":" + contact.getLastName()+", " + "\"Comapny\":" + contact.getCompany() + ", " +
 				"\"JobTitle\":" + ", " + "\"Phone Number\":" + contact.getPhone().getPhoneNumber() + "\"Email Address\":" + contact.getEmailAddress().getEmailAddress() + "},"
 			);
