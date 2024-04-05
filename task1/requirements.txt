@@ -1,0 +1,5 @@
+1. Each contact has a first name,last name,company field,job title field,zero or more phone numbers and zero or more email addresses.
+2. Each email has an actual address field and a label so that users can write to indicate how it is related to the contact.
+3. Each phone number also has a field for the number and a field for a label.
+4. The user can search through the contacts, add new contacts, update existing contacts and delete
+old contacts and merge duplicate contacts.
