@@ -20,6 +20,13 @@ public class Contact {
         this.email = email;
         this.phone = phone;
     }
+    public Contact(String firstName,String lastName,String company,String jobTitle){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.company = company;
+        this.jobTitle = jobTitle;
+
+    }
 
     public void setFirstName(String firstName){
         this.firstName = firstName;
